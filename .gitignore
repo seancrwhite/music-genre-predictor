@@ -1,0 +1,6 @@
+.DS_Store
+DGLIB/mysite/blog/__pycache__/*
+DGLIB/mysite/music/__pycache__/*
+DGLIB/mysite/music/migrations/__pycache__/*
+DGLIB/mysite/mysite/__pycache__/*
+
