@@ -12,7 +12,7 @@ If this is your first time uses this repo, start by cloning:
 Now you will checkout a new branch so the code you add doesn't indirectly crash the working program:
 -`git checkout -b`
 
-You can now start editting the code. When you've come to a stopping point stage your code:
+You can now start editing the code. When you've come to a stopping point stage your code:
 -`git add -A`
 
 
@@ -20,7 +20,7 @@ Then you will commit your changes it to your branch
 -`git commit -am "A quick message about what you've changed"`
 
 
-You'll want to checkout the original branch and pull any changes that have been made to the code while you were editting:
+You'll want to checkout the original branch and pull any changes that have been made to the code while you were editing:
 
 -`git checkout
 git pull`
