@@ -6,9 +6,10 @@ Central repository for 2017-2018 senior capstone project
 
 If this is your first time uses this repo, start by cloning: 
   -`git init
-  git clone https://github.com/seancrwhite/music-genre-predictor.git'
+  git clone https://github.com/seancrwhite/music-genre-predictor.git`
   
-  Now you will checkout a new branch so the code you add doesn't indirectly crash the working program:
+  
+Now you will checkout a new branch so the code you add doesn't indirectly crash the working program:
 -`git checkout -b`
 
 You can now start editting the code. When you've come to a stopping point stage your code:
