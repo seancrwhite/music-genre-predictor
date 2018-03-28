@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
-
 <head>
+
 	<title>DGLIN</title>
 	<meta charset="utf-8" />
 	{% load staticfiles %}
@@ -19,16 +20,16 @@
 <body class="body" style="background-color:#f6f6f6">
 	<div class="container-fluid" style="min-height:95%; ">
 		<div class="row">
-			  <div class="col-sm-2">
-				  <br>
-				  <center>
-					<img src="{% static 'music/img/DGLIN.jpg' %}" class="img-responsive" style='max-height:100px;' alt="face">
-				  </center>
-			  </div>
+{#			  <div class="col-sm-2">#}
+{#				  <br>#}
+{#				  <center>#}
+{#					<img src="{% static 'music/img/DGLIN.jpg' %}" class="img-responsive" style='max-height:100px;' alt="face">#}
+{#				  </center>#}
+{#			  </div>#}
 			  <div class="col-sm-10">
 				  <br>
 				  <center>
-				  <h3>Music Information Retrival</h3>
+				  <h2>Deep Learning Genre Identification Network</h2>
 				  </center>
 			  </div>
 		</div><hr>
@@ -43,8 +44,8 @@
 			<div class="well bs-sidebar" id="sidebar" style="background-color:#fff">
 			  <ul class="nav nav-pills nav-stacked">
 				<li><a href='/'>Home</a></li>
-				<li><a href='/blog/'>Blog</a></li>
-				<li><a href='/contact/'>Contact</a></li>
+				<li><a href='/blog/'>Abstract</a></li>
+				<li><a href='/contact/'>Project Creators</a></li>
 			  </ul>
 			</div> <!--well bs-sidebar affix-->
 		  </div> <!--col-sm-2-->
@@ -59,9 +60,6 @@
 		</div> 
 	</div>
 	<footer>
-		<div class="container-fluid" style='margin-left:15px'>
-			<p><a href="#" target="blank">Contact</a> | <a href="#" target="blank">LinkedIn</a> | <a href="#" target="blank">Twitter</a> | <a href="#" target="blank">Google+</a></p>
-		</div>
 	</footer>	
 	
 </body>

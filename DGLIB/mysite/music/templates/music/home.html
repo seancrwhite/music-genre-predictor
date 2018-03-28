@@ -1,6 +1,82 @@
 {% extends "music/header.html" %}
 
 {% block content %}
-<p>Hey, welcome to my website! I am a programmer!</p>
-{% include "music/includes/htmlsnippet.html" %}
+    {% load staticfiles %}
+
+    <html>
+    <head>
+        <style>
+            {% include "music/includes/htmlsnippet.html" %}
+            {#<link rel="stylesheet" href="music.css">#}
+            .output {display: inline-block; float:right}
+            .upload {display: inline-block; float:left}
+        </style>
+    </head>
+    <body>
+    <h4>Upload Audio Files</h4>
+    <div class="upload" align ="left">
+        <br />
+        <button onclick="getFilePath()" id="slice" type = "button">Add Slice</button>
+        <button onclick="buttonClicked()" id="finish" type ="button">Upload Selected Files</button>
+        <br />
+        <p id ="demo"></p>
+        <br />
+    </div>
+
+    <div class="output" align = "center">
+        <h4>Output
+            <br />
+            <br />
+        </h4>
+        <canvas id="visualization" width="600" height="400" style="border:1px solid #000000;"></canvas>
+        <br />
+    </div>
+
+{#    <script>#}
+{#        function buttonClicked(){#}
+{##}
+{#        }#}
+{##}
+{#        function getFilePath(){#}
+{#            var filepaths = [];#}
+{##}
+{#            var x = document.createElement("INPUT");#}
+{#            x.setAttribute("type", "file");#}
+{#            x.setAttribute("value", "Add Song");#}
+{##}
+{#            var test = document.createElement("LI");#}
+{#            test.appendChild(x);#}
+{##}
+{#            var button = document.getElementById("slice");#}
+{#            button.insertBefore(test, button.childNodes[1]);#}
+{##}
+{#            var k = document.getElementById("").valueOf();#}
+{#            document.getElementById("demo").innerHTML = k;#}
+{##}
+            {#var y = document.getElementById("x").value;#}
+            {#filepaths.push(document.getElementById("test").value);#}
+            {#document.getElementById("y").innerHTML = filepaths.toString();#}
+            {#document.getElementById("demo").innerHTML = filepaths.toString();#}
+{##}
+{##}
+{#        }#}
+{##}
+{#    </script>#}
+
+
+    </body>
+
+    </html>
 {% endblock %}
+
+{#<div style="padding:40px;margin:40px;border:1px solid #ccc">#}
+{#		<h1>picture</h1>#}
+{#		<form action="#" method="post" enctype="multipart/form-data">#}
+{#			{% csrf_token %} {{form}} #}
+{#			<input type="submit" value="Upload" />#}
+{#		</form>#}
+{#		{% for img in images %}#}
+{#			{{forloop.counter}}.<a href="{{ img.pic.url }}">{{ img.pic.name }}</a>#}
+{#			({{img.upload_date}})<hr />#}
+{#		{% endfor %}#}
+{#	</div>#}

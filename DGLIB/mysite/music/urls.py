@@ -1,7 +1,7 @@
-from django.conf.urls import url, include
-from . import views
+# -*- coding: utf-8 -*-
+from django.conf.urls import url
+from mysite.myapp.views import list
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
-    url(r'^contact/$', views.contact, name='contact'),
+    url(r'^list/$', list, name='list')
 ]
