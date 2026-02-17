@@ -2,13 +2,13 @@
 Central repository for 2017-2018 senior capstone project
 
 
-## Getting Started 
+## Getting Started
 
-If this is your first time uses this repo, start by cloning: 
+If this is your first time uses this repo, start by cloning:
   -`git init
   git clone https://github.com/seancrwhite/music-genre-predictor.git`
-  
-  
+
+
 Now you will checkout a new branch so the code you add doesn't indirectly crash the working program:
 -`git checkout -b`
 
@@ -37,3 +37,6 @@ Now push your commit to the parent branch:
 ## Technologies & Software
 1. Github is used for version control.
 2. [Python Django](https://www.djangoproject.com/) is the framework used to implement the Model-View-Controller(MVC) layout.
+
+## Presentation
+[View Project Presentation](./docs/Deep_Learning_Genre_Indentification_Network.pdf)
